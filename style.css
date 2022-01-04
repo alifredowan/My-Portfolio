@@ -8,7 +8,7 @@ h1{
 .color-span{
     color: rgb(167, 13, 13);
 }
-section{
+.flexible_container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,17 @@ section{
     color: wheat;
     font-weight: 700px;
     border-radius: 5px;
+}
+.web-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 20px;
+    box-shadow:10px 10px 40px tomato;
+    border-radius: 10px;
+}
+.experience-style{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
 }
